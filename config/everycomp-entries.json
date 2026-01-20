@@ -1,0 +1,65 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "types": {
+    "wood_type": {
+      "biomesoplenty.fir": true,
+      "biomesoplenty.pine": true,
+      "biomesoplenty.maple": true,
+      "biomesoplenty.redwood": true,
+      "biomesoplenty.mahogany": true,
+      "biomesoplenty.jacaranda": true,
+      "biomesoplenty.palm": true,
+      "biomesoplenty.willow": true,
+      "biomesoplenty.dead": true,
+      "biomesoplenty.magic": true,
+      "biomesoplenty.umbran": true,
+      "biomesoplenty.hellbark": true,
+      "biomesoplenty.empyreal": true,
+      "vanillabackport.pale_oak": true,
+      "wilderwild.baobab": true,
+      "wilderwild.willow": true,
+      "wilderwild.cypress": true,
+      "wilderwild.palm": true,
+      "wilderwild.maple": true
+    },
+    "leaves_type": {
+      "biomesoplenty.origin": true,
+      "biomesoplenty.flowering_oak": true,
+      "biomesoplenty.red_maple": true,
+      "biomesoplenty.orange_maple": true,
+      "biomesoplenty.yellow_maple": true,
+      "biomesoplenty.rainbow_birch": true,
+      "biomesoplenty.snowblossom": true,
+      "biomesoplenty.null": true,
+      "biomesoplenty.cypress": true,
+      "biomesoplenty.fir": true,
+      "biomesoplenty.pine": true,
+      "biomesoplenty.redwood": true,
+      "biomesoplenty.mahogany": true,
+      "biomesoplenty.jacaranda": true,
+      "biomesoplenty.palm": true,
+      "biomesoplenty.willow": true,
+      "biomesoplenty.dead": true,
+      "biomesoplenty.magic": true,
+      "biomesoplenty.umbran": true,
+      "biomesoplenty.hellbark": true,
+      "biomesoplenty.empyreal": true,
+      "vanillabackport.pale_oak": true,
+      "wilderwild.baobab": true,
+      "wilderwild.willow": true,
+      "wilderwild.cypress": true,
+      "wilderwild.yellow_maple": true,
+      "wilderwild.orange_maple": true,
+      "wilderwild.red_maple": true
+    }
+  },
+  "entries": {
+    "wood_type": {
+      "farmersdelight.cabinet": true,
+      "friendsandfoes.beehive": true,
+      "wilderwild.stripped_hollowed_log": true,
+      "wilderwild.hollowed_log": true
+    },
+    "leaves_type": {}
+  }
+}

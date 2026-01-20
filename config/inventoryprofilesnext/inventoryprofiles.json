@@ -1,0 +1,43 @@
+{
+    "ModSettings": {
+        "villager_trading_enable": {
+            "value": false
+        },
+        "for_modpack_devs": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "show_continuous_crafting_checkbox": {
+            "value": false
+        },
+        "continuous_crafting_checkbox_value": "UNCHECKED",
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        },
+        "show_button_tooltips": false
+    },
+    "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "auto_refill_enable_per_slot_config": {
+            "value": false
+        },
+        "auto_refill_enable_indicator_icons": {
+            "value": false
+        },
+        "auto_refill_enable_horbar_indicator_icons": {
+            "value": false
+        }
+    }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "cringeybabey",
+      "uniqueId": "a975794d-05f2-462a-92cd-c22dd170f1f0"
+    },
+    "time": 1749622856515,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Portable Programs\\MultiMC\\instances\\Kity and Pupy 0.6.0\\.minecraft\\config\\spark\\profile-2025-06-10_23.20.56.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "cringeybabey",
+      "uniqueId": "a975794d-05f2-462a-92cd-c22dd170f1f0"
+    },
+    "time": 1747213106525,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Sarah\\AppData\\Roaming\\ModrinthApp\\profiles\\Kity and Pupy\\config\\spark\\profile-2025-05-14_01.58.26.sparkprofile"
+    }
+  }
+]

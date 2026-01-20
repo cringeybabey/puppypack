@@ -1,0 +1,16 @@
+{
+	show_in_options: true,
+	separate_bobs: true,
+	all_bobbing_strength: 100,
+	hand_bobbing_strength: 50,
+	camera_bobbing_strength: 50,
+	stationary_items: [
+		"minecraft:clock",
+		"minecraft:recovery_compass",
+		"minecraft:filled_map",
+		"minecraft:compass",
+		"minecraft:netherite_sword",
+		"minecraft:deepslate_tile_slab",
+		"minecraft:bone_meal"
+	]
+}

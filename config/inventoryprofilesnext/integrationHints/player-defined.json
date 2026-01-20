@@ -1,0 +1,17 @@
+{
+    "net.minecraft.class_476": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": -1,
+                "top": -1
+            }
+        }
+    },
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": 2
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+
+# scholar
+	scholar:lectern_spread_book_edit
+	scholar:lectern_spread_book_view
+
+# easyanvils
+	easyanvils:repair

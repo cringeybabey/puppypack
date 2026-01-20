@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "subtitlesEnabled": false,
+  "sounds": [
+    {
+      "soundId": "minecraft:block.azalea_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "minecraft:block.cherry_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "sounds:block.acacia_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "sounds:block.birch_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "sounds:block.jungle_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "sounds:block.mangrove_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "sounds:block.spruce_leaves.break",
+      "volume": 0.7
+    },
+    {
+      "soundId": "wilderwild:block.leaves.break",
+      "volume": 0.7
+    }
+  ]
+}

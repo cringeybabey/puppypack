@@ -1,0 +1,35 @@
+/tp cringeybabey ~ ~ ~ 180 0
+/fill -95 64 847 -88 64 843 minecraft:glass
+/fill -96 64 847 -88 66 847 minecraft:black_stained_glass
+/fill -96 64 847 -96 66 842 minecraft:black_stained_glass
+/fill -87 64 847 -87 66 842 minecraft:black_stained_glass
+/fill -96 64 843 -96 66 840 minecraft:black_stained_glass
+/fill -95 64 843 -93 64 840 minecraft:glass
+/fill -92 64 843 -90 64 840 minecraft:smooth_stone
+/fill -90 64 843 -88 64 840 minecraft:glass
+/fill -87 64 843 -87 66 840 minecraft:black_stained_glass
+/setblock -94 65 842 minecraft:oak_sign[rotation=12,waterlogged=false]{Text1:"{\"text\":\"farmersdelight\"}"} destroy
+/fill -96 64 842 -96 66 839 minecraft:black_stained_glass
+/fill -95 64 842 -93 64 839 minecraft:glass
+/fill -92 64 842 -90 64 839 minecraft:smooth_stone
+/fill -90 64 842 -88 64 839 minecraft:glass
+/fill -87 64 842 -87 66 839 minecraft:black_stained_glass
+/setblock -92 65 842 farmersdelight:cooking_pot destroy
+/setblock -94 65 838 minecraft:oak_sign[rotation=12,waterlogged=false]{Text1:"{\"text\":\"tide\"}"} destroy
+/fill -96 64 838 -96 66 835 minecraft:black_stained_glass
+/fill -95 64 838 -93 64 835 minecraft:glass
+/fill -92 64 838 -90 64 835 minecraft:smooth_stone
+/fill -90 64 838 -88 64 835 minecraft:glass
+/fill -87 64 838 -87 66 835 minecraft:black_stained_glass
+/setblock -92 65 838 tide:angler_workshop destroy
+/setblock -94 65 834 minecraft:oak_sign[rotation=12,waterlogged=false]{Text1:"{\"text\":\"sawmill\"}"} destroy
+/fill -96 64 834 -96 66 831 minecraft:black_stained_glass
+/fill -95 64 834 -93 64 831 minecraft:glass
+/fill -92 64 834 -90 64 831 minecraft:smooth_stone
+/fill -90 64 834 -88 64 831 minecraft:glass
+/fill -87 64 834 -87 66 831 minecraft:black_stained_glass
+/setblock -92 65 834 sawmill:sawmill destroy
+/fill -95 64 827 -88 64 830 minecraft:glass
+/fill -96 64 827 -88 66 827 minecraft:black_stained_glass
+/fill -96 64 827 -96 66 830 minecraft:black_stained_glass
+/fill -87 64 827 -87 66 830 minecraft:black_stained_glass

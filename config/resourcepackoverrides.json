@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 2,
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "file/Sodium Translations.zip",
+    "continuity:default",
+    "continuity:glass_pane_culling_fix",
+    "moonlight:mods_dynamic_assets",
+    "minecraft:supporteatinganimation",
+    "file/VanillaTweaks Essentials.zip",
+    "file/VanillaTweaks Extras.zip",
+    "file/BOP Renewed 1.6",
+    "file/BOP Renewed 1.6.zip",
+    "scholar:chiseled_bookshelf_colored_books",
+    "scholar:colored_books",
+    "file/Better Flame Particles 2.2.zip",
+    "file/Alternative Mud Color.zip",
+    "file/Lower Guarding Shield.zip",
+    "file/Glowy Nether Portals.zip",
+    "file/Rugburn.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "server": {
+      "default_position": "BOTTOM",
+      "force_compatible": true,
+      "fixed_position": false
+    },
+    "1": [
+      "file/BOP Renewed 1.6.zip",
+      "file/BOP Renewed 1.6",
+      "file/VanillaTweaks Essentials.zip",
+      "file/Lower Guarding Shield.zip",
+      "file/Sodium Translations.zip"
+    ],
+    "$$1": {
+      "hidden": true,
+      "required": true
+    }
+  }
+}

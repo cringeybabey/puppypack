@@ -1,0 +1,19 @@
+{
+    "render": {
+        "color": "none",
+        "patterns": "all",
+        "trims": "all",
+        "cape": "none",
+        "glow": "none",
+        "global": "all"
+    },
+    "texture": {
+        "cropTrims": true,
+        "useDarkerTrim": false,
+        "useBannerTextures": false,
+        "useElytraModel": false
+    },
+    "compat": {
+        "smysKeepTrims": true
+    }
+}
