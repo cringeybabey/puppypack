@@ -1,0 +1,20 @@
+# Minecraft files
+.cache
+.fabric
+coremods
+data
+defaultconfigs
+downloads
+emojiful
+frozenlib_cape_cache
+logs
+moddata
+saves
+screenshots
+server-resource-packs
+texturespacks
+command_history.txt
+options.txt
+usercache.json
+# Other
+.DS_Store
