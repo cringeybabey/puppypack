@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "fabric/lol/zanspace/unloadedactivity/fabric/mixin/AbstractFurnaceBlockEntityInvoker": {
+      "craftRecipe": "method_11203(Lnet/minecraft/class_5455;Lnet/minecraft/class_8786;Lnet/minecraft/class_2371;I)Z"
+    },
+    "fabric/lol/zanspace/unloadedactivity/fabric/mixin/CommandManagerMixin": {
+      "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+    },
+    "fabric/lol/zanspace/unloadedactivity/fabric/mixin/CropBlockInvoker": {
+      "getAvailableMoisture": "method_9830(Lnet/minecraft/class_2248;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fabric/lol/zanspace/unloadedactivity/fabric/mixin/AbstractFurnaceBlockEntityInvoker": {
+        "craftRecipe": "method_11203(Lnet/minecraft/class_5455;Lnet/minecraft/class_8786;Lnet/minecraft/class_2371;I)Z"
+      },
+      "fabric/lol/zanspace/unloadedactivity/fabric/mixin/CommandManagerMixin": {
+        "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+      },
+      "fabric/lol/zanspace/unloadedactivity/fabric/mixin/CropBlockInvoker": {
+        "getAvailableMoisture": "method_9830(Lnet/minecraft/class_2248;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+      }
+    }
+  }
+}

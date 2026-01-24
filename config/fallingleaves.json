@@ -2,7 +2,7 @@
   "version": 1,
   "displayDebugData": false,
   "enabled": true,
-  "leafSize": 6,
+  "leafSize": 8,
   "leafLifespan": 200,
   "leafSpawnRate": 6,
   "coniferLeafSpawnRate": 1,

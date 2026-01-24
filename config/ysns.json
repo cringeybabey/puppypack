@@ -1,0 +1,21 @@
+{
+  "blacklisted_entities": [
+    "minecraft:wandering_trader",
+    "minecraft:trader_llama",
+    "minecraft:villager",
+    "minecraft:zombie_villager",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:illusioner",
+    "minecraft:vindicator",
+    "minecraft:vex",
+    "minecraft:warden",
+    "minecraft:guardian",
+    "minecraft:phantom",
+    "minecraft:elder_guardian",
+    "minecraft:witch",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:allay",
+  ]
+}

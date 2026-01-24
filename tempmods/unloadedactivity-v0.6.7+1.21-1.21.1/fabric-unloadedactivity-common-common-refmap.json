@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "fabric/lol/zanspace/unloadedactivity/mixin/AbstractCauldronBlockInvoker": {
+      "canBeFilledByDripstone": "method_32765(Lnet/minecraft/class_3611;)Z",
+      "fillFromDripstone": "method_32764(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3611;)V"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/BlockEntityMixin": {
+      "readNbt": "Lnet/minecraft/class_2586;method_11014(Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)V",
+      "writeNbt": "Lnet/minecraft/class_2586;method_11007(Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)V"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/CauldronBlockInvoker": {
+      "FILL_WITH_RAIN_CHANCE": "field_34027:F",
+      "FILL_WITH_SNOW_CHANCE": "field_34028:F"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/ChunkSerializerMixin": {
+      "deserialize": "Lnet/minecraft/class_2852;method_12395(Lnet/minecraft/class_3218;Lnet/minecraft/class_4153;Lnet/minecraft/class_9240;Lnet/minecraft/class_1923;Lnet/minecraft/class_2487;)Lnet/minecraft/class_2839;",
+      "serialize": "Lnet/minecraft/class_2852;method_12410(Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2487;"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/DirectBlockEntityTickInvokerMixin": {
+      "Lnet/minecraft/block/entity/BlockEntityTicker;tick(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;)V": "Lnet/minecraft/class_5558;tick(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;)V",
+      "net.minecraft.world.chunk.WorldChunk$DirectBlockEntityTickInvoker": "net/minecraft/class_2818$class_5563",
+      "tick": "Lnet/minecraft/class_2818$class_5563;method_31703()V"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/EntityMixin": {
+      "<init>": "Lnet/minecraft/class_1297;<init>(Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V",
+      "Lnet/minecraft/entity/Entity;readCustomDataFromNbt(Lnet/minecraft/nbt/NbtCompound;)V": "Lnet/minecraft/class_1297;method_5749(Lnet/minecraft/class_2487;)V",
+      "readNbt": "Lnet/minecraft/class_1297;method_5651(Lnet/minecraft/class_2487;)V",
+      "tick": "Lnet/minecraft/class_1297;method_5773()V",
+      "writeNbt": "Lnet/minecraft/class_1297;method_5647(Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/ServerWorldMixin": {
+      "<init>*": "Lnet/minecraft/class_3218;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_5268;Lnet/minecraft/class_5321;Lnet/minecraft/class_5363;Lnet/minecraft/class_3949;ZJLjava/util/List;ZLnet/minecraft/class_8565;)V",
+      "net/minecraft/server/world/ServerWorld.tickTime()V": "Lnet/minecraft/class_3218;method_29203()V",
+      "net/minecraft/server/world/ServerWorld.wakeSleepingPlayers()V": "Lnet/minecraft/class_3218;method_23660()V",
+      "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V",
+      "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+    },
+    "fabric/lol/zanspace/unloadedactivity/mixin/WorldChunkMixin": {
+      "<init>(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/world/chunk/ProtoChunk;Lnet/minecraft/world/chunk/WorldChunk$EntityLoader;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_3218;Lnet/minecraft/class_2839;Lnet/minecraft/class_2818$class_6829;)V",
+      "net/minecraft/world/chunk/ChunkSection.setBlockState(IIILnet/minecraft/block/BlockState;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_2826;method_16675(IIILnet/minecraft/class_2680;)Lnet/minecraft/class_2680;",
+      "setBlockState": "Lnet/minecraft/class_2818;method_12010(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fabric/lol/zanspace/unloadedactivity/mixin/AbstractCauldronBlockInvoker": {
+        "canBeFilledByDripstone": "method_32765(Lnet/minecraft/class_3611;)Z",
+        "fillFromDripstone": "method_32764(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3611;)V"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/BlockEntityMixin": {
+        "readNbt": "Lnet/minecraft/class_2586;method_11014(Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)V",
+        "writeNbt": "Lnet/minecraft/class_2586;method_11007(Lnet/minecraft/class_2487;Lnet/minecraft/class_7225$class_7874;)V"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/CauldronBlockInvoker": {
+        "FILL_WITH_RAIN_CHANCE": "field_34027:F",
+        "FILL_WITH_SNOW_CHANCE": "field_34028:F"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/ChunkSerializerMixin": {
+        "deserialize": "Lnet/minecraft/class_2852;method_12395(Lnet/minecraft/class_3218;Lnet/minecraft/class_4153;Lnet/minecraft/class_9240;Lnet/minecraft/class_1923;Lnet/minecraft/class_2487;)Lnet/minecraft/class_2839;",
+        "serialize": "Lnet/minecraft/class_2852;method_12410(Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2487;"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/DirectBlockEntityTickInvokerMixin": {
+        "Lnet/minecraft/block/entity/BlockEntityTicker;tick(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/entity/BlockEntity;)V": "Lnet/minecraft/class_5558;tick(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;)V",
+        "net.minecraft.world.chunk.WorldChunk$DirectBlockEntityTickInvoker": "net/minecraft/class_2818$class_5563",
+        "tick": "Lnet/minecraft/class_2818$class_5563;method_31703()V"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/EntityMixin": {
+        "<init>": "Lnet/minecraft/class_1297;<init>(Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V",
+        "Lnet/minecraft/entity/Entity;readCustomDataFromNbt(Lnet/minecraft/nbt/NbtCompound;)V": "Lnet/minecraft/class_1297;method_5749(Lnet/minecraft/class_2487;)V",
+        "readNbt": "Lnet/minecraft/class_1297;method_5651(Lnet/minecraft/class_2487;)V",
+        "tick": "Lnet/minecraft/class_1297;method_5773()V",
+        "writeNbt": "Lnet/minecraft/class_1297;method_5647(Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/ServerWorldMixin": {
+        "<init>*": "Lnet/minecraft/class_3218;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_5268;Lnet/minecraft/class_5321;Lnet/minecraft/class_5363;Lnet/minecraft/class_3949;ZJLjava/util/List;ZLnet/minecraft/class_8565;)V",
+        "net/minecraft/server/world/ServerWorld.tickTime()V": "Lnet/minecraft/class_3218;method_29203()V",
+        "net/minecraft/server/world/ServerWorld.wakeSleepingPlayers()V": "Lnet/minecraft/class_3218;method_23660()V",
+        "tick": "Lnet/minecraft/class_3218;method_18765(Ljava/util/function/BooleanSupplier;)V",
+        "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+      },
+      "fabric/lol/zanspace/unloadedactivity/mixin/WorldChunkMixin": {
+        "<init>(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/world/chunk/ProtoChunk;Lnet/minecraft/world/chunk/WorldChunk$EntityLoader;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_3218;Lnet/minecraft/class_2839;Lnet/minecraft/class_2818$class_6829;)V",
+        "net/minecraft/world/chunk/ChunkSection.setBlockState(IIILnet/minecraft/block/BlockState;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_2826;method_16675(IIILnet/minecraft/class_2680;)Lnet/minecraft/class_2680;",
+        "setBlockState": "Lnet/minecraft/class_2818;method_12010(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;"
+      }
+    }
+  }
+}

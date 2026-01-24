@@ -1,0 +1,12 @@
+{
+  "injected_interfaces": {
+    "net/minecraft/block/AbstractBlock": ["fabric/lol/zanspace/unloadedactivity/interfaces/SimulateChunkBlocks"],
+    "net/minecraft/block/entity/BlockEntity": [
+      "fabric/lol/zanspace/unloadedactivity/interfaces/SimulateBlockEntity",
+      "fabric/lol/zanspace/unloadedactivity/interfaces/BlockEntityTimeData"
+    ],
+    "net/minecraft/entity/Entity": ["fabric/lol/zanspace/unloadedactivity/interfaces/SimulateEntity"],
+    "net/minecraft/world/chunk/Chunk": ["fabric/lol/zanspace/unloadedactivity/interfaces/ChunkTimeData"],
+    "net/minecraft/server/world/ServerWorld": ["fabric/lol/zanspace/unloadedactivity/interfaces/WorldTimeData"]
+  }
+}

@@ -27,7 +27,7 @@
 		"generateSnowyDyingMixedForest": false,
 		"generateMagmaticCaves": true,
 		"generateFrozenCaves": true,
-		"generateMapleForest": true,
+		"generateMapleForest": false,
 		"generateSparseForest": true,
 		"generateTundra": true,
 	},

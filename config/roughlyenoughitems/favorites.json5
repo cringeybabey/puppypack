@@ -43,7 +43,6 @@
 		"{data:{count:1,id:\"wilderwild:hollowed_dark_oak_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"wilderwild:palm_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"wilderwild:palm_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{count:1,id:\"wilderwild:hollowed_birch_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:water_breathing\"}},count:1,id:\"minecraft:splash_potion\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:spruce_fence_gate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:jungle_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -52,7 +51,6 @@
 		"{data:{count:1,id:\"minecraft:mangrove_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:raw_copper\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:crimson_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{count:1,id:\"minecraft:stripped_spruce_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{components:{\"minecraft:enchantments\":{levels:{\"minecraft:efficiency\":4}}},count:1,id:\"minecraft:diamond_shovel\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:coal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"farmersdelight:rope\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -85,7 +83,15 @@
 		"{data:{count:1,id:\"minecraft:deepslate_gold_ore\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:cobblestone\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{count:1,id:\"minecraft:stripped_birch_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{count:1,id:\"wilderwild:baobab_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		"{data:{count:1,id:\"wilderwild:baobab_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"wilderwild:stripped_hollowed_spruce_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"minecraft:mossy_cobblestone_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"minecraft:stripped_spruce_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"wilderwild:hollowed_birch_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"wilderwild:stripped_baobab_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"wilderwild:willow_button\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"wilderwild:baobab_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{count:1,id:\"biomesoplenty:stripped_empyreal_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 	],
 	"hiddenFavorites": [],
 	"displays": []
