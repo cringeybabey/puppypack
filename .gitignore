@@ -1,18 +1,26 @@
 # Minecraft files
 .cache
 .fabric
+.mixin.out
 coremods
+crash-reports
 data
+datapacks
+debug
 defaultconfigs
 downloads
+dynamic-data-pack-cache
+dynamic-resource-pack-cache
 emojiful
+frozenlib
 frozenlib_cape_cache
 logs
 moddata
+moonlight-global-resource-packs
 saves
 screenshots
 server-resource-packs
-texturespacks
+texturepacks
 command_history.txt
 options.txt
 usercache.json
