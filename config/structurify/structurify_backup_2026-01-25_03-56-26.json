@@ -1,0 +1,1431 @@
+{
+  "config_version": "1.0.11",
+  "general": {
+    "min_structure_distance_from_world_center": 226,
+    "disable_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.6
+  },
+  "structures": [
+    {
+      "name": "minecraft:ancient_city",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:bastion_remnant",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:cold_desert"
+      ]
+    },
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:monument",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:badlands_pyramid",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:black_spiral",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:campsite",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:dark_forest_settlement",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:end_shipwreck",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:farmstead",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:guide_post_cold",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:guide_post_warm",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:mangrove_hut",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:ruins",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 96,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 96,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/dark",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/forest",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/mangrove",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:supply_cache/taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:tavern",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:watchtower/plains",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:watchtower/savanna",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "explorify:watchtower/taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "friendsandfoes:iceologer_cabin",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 32,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "friendsandfoes:illusioner_shack",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 32,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "friendsandfoes:illusioner_training_grounds",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 32,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 32,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:deepslate_camp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 8,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 8,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_cherry",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_dark_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_forest",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_mangrove",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_savanna",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_swamp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:firewatch_tower_taiga",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 100,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 100,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:illager_manor",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 127,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 127,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:mangrove_witch_hut",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:piglin_donjon",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:piglin_outstation",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 100,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 100,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_bee_keeper",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_birch_graveyard",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_bunny_base",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_forest_smith",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_frog_ranch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_ominous_shop",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_ruin_farmer",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_ruin_smith",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:remnant_sawmill",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_1",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_2",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_3",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_4",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_5",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:shrine_tower",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 100,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 100,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 100,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 100,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_acacia",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_cherry",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_dark_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_mangrove",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_spruce",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_dark_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_oak",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_savana",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:well_spruce",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 100,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 100,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:witch_villa",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "structory:abandoned_camp",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "structory:boat",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "structory:firetower",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:snowy_taiga",
+        "biomesoplenty:bog",
+        "biomesoplenty:hot_springs",
+        "biomesoplenty:ominous_woods",
+        "biomesoplenty:tundra"
+      ]
+    },
+    {
+      "name": "structory:northern_ruin",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 30,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 30,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "structory:outcast_villager_desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "structory:outcast_villager_grassy",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "tide:fishing_boat",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "explorify:black_spirals",
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 43,
+      "separation": 20
+    },
+    {
+      "name": "friendsandfoes:citadel",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 21,
+      "separation": 8
+    },
+    {
+      "name": "friendsandfoes:iceologer_cabin",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 58,
+      "separation": 14
+    },
+    {
+      "name": "friendsandfoes:illusioner_shack",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 58,
+      "separation": 14
+    },
+    {
+      "name": "friendsandfoes:illusioner_training_grounds",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 58,
+      "separation": 14
+    },
+    {
+      "name": "minecraft:ancient_cities",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 8
+    },
+    {
+      "name": "minecraft:buried_treasures",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 1,
+      "separation": 0
+    },
+    {
+      "name": "minecraft:end_cities",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 18
+    },
+    {
+      "name": "minecraft:nether_complexes",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 29,
+      "separation": 8
+    },
+    {
+      "name": "minecraft:nether_fossils",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 2,
+      "separation": 1
+    },
+    {
+      "name": "minecraft:ocean_ruins",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 24,
+      "separation": 9
+    },
+    {
+      "name": "minecraft:ruined_portals",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 59,
+      "separation": 21
+    },
+    {
+      "name": "minecraft:shipwrecks",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 5
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 10
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 19
+    },
+    {
+      "name": "minecraft:villages",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 12
+    },
+    {
+      "name": "minecraft:woodland_mansions",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 118,
+      "separation": 29
+    },
+    {
+      "name": "nova_structures:badlands_miner_outpost",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 63,
+      "separation": 13
+    },
+    {
+      "name": "nova_structures:badlands_miner_outpost_mineshafts",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 63,
+      "separation": 13
+    },
+    {
+      "name": "nova_structures:bunker",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 52,
+      "separation": 11
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 140,
+      "separation": 90
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 105,
+      "separation": 10
+    },
+    {
+      "name": "nova_structures:deepslate_camp",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 15,
+      "separation": 7
+    },
+    {
+      "name": "nova_structures:desert_ruins",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 84,
+      "separation": 13
+    },
+    {
+      "name": "nova_structures:end_lighthouses",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 44,
+      "separation": 23
+    },
+    {
+      "name": "nova_structures:end_ship",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 44,
+      "separation": 12
+    },
+    {
+      "name": "nova_structures:firewatch_towers",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 54,
+      "separation": 17
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 63,
+      "separation": 34
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 200,
+      "separation": 12
+    },
+    {
+      "name": "nova_structures:jungle_ruins",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 84,
+      "separation": 13
+    },
+    {
+      "name": "nova_structures:mangrove_witch_hut",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 33,
+      "separation": 8
+    },
+    {
+      "name": "nova_structures:nether_camps",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 10
+    },
+    {
+      "name": "nova_structures:nether_skeleton_towers",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 22
+    },
+    {
+      "name": "nova_structures:nether_structures",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 85,
+      "separation": 40
+    },
+    {
+      "name": "nova_structures:remnants",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 126,
+      "separation": 33
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 120,
+      "separation": 66
+    },
+    {
+      "name": "nova_structures:shrine_tower",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 600,
+      "separation": 312
+    },
+    {
+      "name": "nova_structures:shrines",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 52,
+      "separation": 28
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 105,
+      "separation": 18
+    },
+    {
+      "name": "nova_structures:swamp_structure",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 84,
+      "separation": 22
+    },
+    {
+      "name": "nova_structures:taverns",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 40,
+      "separation": 15
+    },
+    {
+      "name": "nova_structures:trident_trial_monument",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 200,
+      "separation": 190
+    },
+    {
+      "name": "nova_structures:undead_crypt",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 105,
+      "separation": 22
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 10
+    },
+    {
+      "name": "nova_structures:villages_birch",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 12
+    },
+    {
+      "name": "nova_structures:villages_jungle",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 12
+    },
+    {
+      "name": "nova_structures:villages_swamp",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 12
+    },
+    {
+      "name": "nova_structures:wells",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 42,
+      "separation": 16
+    },
+    {
+      "name": "nova_structures:wild_ruin",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 36,
+      "separation": 23
+    },
+    {
+      "name": "nullscape:dragon_skeleton",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 12
+    },
+    {
+      "name": "nullscape:rift",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 20,
+      "separation": 12
+    },
+    {
+      "name": "structory:mid_rare_ruin",
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 47,
+      "separation": 26
+    },
+    {
+      "name": "tide:fishing_boat",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 38,
+      "separation": 28
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 {
     "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
         "villager_trading_enable": {
             "value": false
         },

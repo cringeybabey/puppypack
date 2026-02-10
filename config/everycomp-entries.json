@@ -1,7 +1,7 @@
 {
-  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "types": {
     "wood_type": {
+      // Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
       "biomesoplenty.fir": true,
       "biomesoplenty.pine": true,
       "biomesoplenty.maple": true,
@@ -15,7 +15,6 @@
       "biomesoplenty.umbran": true,
       "biomesoplenty.hellbark": true,
       "biomesoplenty.empyreal": true,
-      "vanillabackport.pale_oak": true,
       "wilderwild.baobab": true,
       "wilderwild.willow": true,
       "wilderwild.cypress": true,
@@ -23,17 +22,18 @@
       "wilderwild.maple": true
     },
     "leaves_type": {
+      "biomesoplenty.null": true,
       "biomesoplenty.origin": true,
       "biomesoplenty.flowering_oak": true,
+      "biomesoplenty.cypress": true,
+      "biomesoplenty.snowblossom": true,
+      "biomesoplenty.rainbow_birch": true,
+      // Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+      "biomesoplenty.fir": true,
+      "biomesoplenty.pine": true,
       "biomesoplenty.red_maple": true,
       "biomesoplenty.orange_maple": true,
       "biomesoplenty.yellow_maple": true,
-      "biomesoplenty.rainbow_birch": true,
-      "biomesoplenty.snowblossom": true,
-      "biomesoplenty.null": true,
-      "biomesoplenty.cypress": true,
-      "biomesoplenty.fir": true,
-      "biomesoplenty.pine": true,
       "biomesoplenty.redwood": true,
       "biomesoplenty.mahogany": true,
       "biomesoplenty.jacaranda": true,
@@ -44,7 +44,6 @@
       "biomesoplenty.umbran": true,
       "biomesoplenty.hellbark": true,
       "biomesoplenty.empyreal": true,
-      "vanillabackport.pale_oak": true,
       "wilderwild.baobab": true,
       "wilderwild.willow": true,
       "wilderwild.cypress": true,

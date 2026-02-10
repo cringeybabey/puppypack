@@ -1,0 +1,41 @@
+{
+   "targets": ["minecraft:air"],
+   "particle_emitters": [
+     {
+       "particle": "extra:small_snow",
+       "chance":"max(0,min(1,(((DAY_TIME%24000>=22500)*(DAY_TIME%24000<24000)*0.600)+((DAY_TIME%24000>=0)*(DAY_TIME%24000<=5000)*0.350)+((DAY_TIME%24000>5000)*(DAY_TIME%24000<=10000)*0.800)+((DAY_TIME%24000>10000)*(DAY_TIME%24000<=12700)*0.120)+((DAY_TIME%24000>12700)*(DAY_TIME%24000<=13800)*0.050)+((DAY_TIME%24000>13800)*(DAY_TIME%24000<22500)*0.800)) * (RAIN>0) + (RAIN>0.7)*0.108))",
+       "x": "gaussian()*5", 
+       "z": "gaussian()*5",
+       "y": "14",
+       "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_plains",
+                "minecraft:frozen_peaks",
+                "minecraft:frozen_river",
+                "minecraft:grove",
+                "minecraft:ice_spikes",
+                "minecraft:snowy_beach",
+                "minecraft:snowy_slopes",
+                "minecraft:jagged_peaks"
+  ]
+     },
+     {
+       "particle": "extra:detailed_snow",
+       "chance":"max(0,min(1,(((DAY_TIME%24000>=22500)*(DAY_TIME%24000<24000)*0.600)+((DAY_TIME%24000>=0)*(DAY_TIME%24000<=5000)*0.350)+((DAY_TIME%24000>5000)*(DAY_TIME%24000<=10000)*0.800)+((DAY_TIME%24000>10000)*(DAY_TIME%24000<=12700)*0.120)+((DAY_TIME%24000>12700)*(DAY_TIME%24000<=13800)*0.050)+((DAY_TIME%24000>13800)*(DAY_TIME%24000<22500)*0.800)) * (RAIN>0) + (RAIN>0.7)*0.108))",
+       "x": "gaussian()*5", 
+       "z": "gaussian()*5",
+       "y": "14",
+       "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_plains",
+                "minecraft:frozen_peaks",
+                "minecraft:frozen_river",
+                "minecraft:grove",
+                "minecraft:ice_spikes",
+                "minecraft:snowy_beach",
+                "minecraft:snowy_slopes",
+                "minecraft:jagged_peaks"
+  ]
+     }
+     ]
+}

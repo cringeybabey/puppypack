@@ -1,0 +1,17 @@
+filename = 'randombushes_v1.0.7.zip'
+name = 'Variated Bush Sizes'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.5', '1.21.5', '1.21.6', '1.21.6', '1.21.7', '1.21.7', '1.21.8', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7'
+
+[download]
+hash = '98076473d09c5015a9054203e993bc7a095b73aa463b077626e50721e3f9a6fb42b162ff4470b2f341f410267527b0ee580c11a40b3ef21af1d4cb3c80d957ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Nv0Prhbi/versions/tF5D6Lfx/randombushes_v1.0.7.zip'
+
+[update.modrinth]
+mod-id = 'Nv0Prhbi'
+version = 'tF5D6Lfx'

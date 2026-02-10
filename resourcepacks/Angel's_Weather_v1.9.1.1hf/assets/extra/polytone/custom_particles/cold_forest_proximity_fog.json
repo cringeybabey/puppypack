@@ -1,0 +1,25 @@
+{
+  "initializer": {
+    "size": "5.8",
+    "alpha": "0",
+    "lifetime": "460",
+    "roll": "rand() * 2 * pi",
+    "custom1": "rand() * 10000",
+    "custom2": "rand() * 11000"
+  },
+
+  "ticker": {
+    "alpha": "min(1, max(0, 0.45 * ( (min(1, max(0, (sqrt(DISTANCE_SQUARED) - 10) / 9)) * min(1, max(0, (sqrt(DISTANCE_SQUARED) - 10) / 9)) * (3 - 2 * min(1, max(0, (sqrt(DISTANCE_SQUARED) - 10) / 9))) ) * (1 - (min(1, max(0, (sqrt(DISTANCE_SQUARED) - 30) / 2)) * min(1, max(0, (sqrt(DISTANCE_SQUARED) - 30) / 2)) * (3 - 2 * min(1, max(0, (sqrt(DISTANCE_SQUARED) - 30) / 2))) ) ) ) * ( (min(1, max(0, (max(0, AGE - 40)) / 80)) * min(1, max(0, (max(0, AGE - 40)) / 80)) * (3 - 2 * min(1, max(0, (max(0, AGE - 40)) / 80))) ) * (1 - (min(1, max(0, ((AGE+1) - 360) / 80)) * min(1, max(0, ((AGE+1) - 360) / 80)) * (3 - 2 * min(1, max(0, ((AGE+1) - 360) / 80))) ) ) ) ) )",
+    "dx": "0.00025 * sin(POS_Z * 0.05 + AGE * 0.06 + CUSTOM1 * pi)",
+    "dz": "0.00025 * cos(POS_X * 0.05 + AGE * 0.06 + CUSTOM1 * e)",
+    "dy": "0.00030 * sin(AGE * 0.06 + ROLL)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 33",
+    "roll": "ROLL + 0.0011 * (0.3 + 0.7 * sin(AGE * 0.02 + CUSTOM2 * e))"
+  },
+
+  "render_type": "additive_translucent",
+  "random_sprite": true,
+  "liquid_affinity": "non_liquids",
+  "offset": [0, -1, 0],
+  "exclusion_radius": 4
+}

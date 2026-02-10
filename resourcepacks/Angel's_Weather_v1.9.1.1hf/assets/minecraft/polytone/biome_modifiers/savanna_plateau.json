@@ -1,0 +1,10 @@
+{
+  "targets": ["minecraft:savanna_plateau"],
+	"fog_color": 14466460,
+	"sky_color": 11055291,
+  	"water_color": 3566461,
+    "water_fog_color": 3566461,
+  	"grass_color": 16762996,
+    "fog_radius": 1.02,
+    "fog_fade": "max(0.0,((DAY_TIME%24000>=22500)*1.0*(DAY_TIME%24000<24000)*1.0*11.20)+((DAY_TIME%24000>=0)*1.0*(DAY_TIME%24000<=5000)*1.0*8.90)+((DAY_TIME%24000>5000)*1.0*(DAY_TIME%24000<=10000)*1.0*6.70)+((DAY_TIME%24000>10000)*1.0*(DAY_TIME%24000<=12700)*1.0*8.10)+((DAY_TIME%24000>12700)*1.0*(DAY_TIME%24000<=13800)*1.0*9.30)+((DAY_TIME%24000>13800)*1.0*(DAY_TIME%24000<22500)*1.0*5.00)+((RAIN>0.7)*1.0*4.00)+((RAIN>0)*(1-(RAIN>0.7))*1.0*2.00))"
+}

@@ -1,0 +1,17 @@
+filename = 'vanilla_disable-fabric-mc1.21.1-4.0.3.jar'
+name = 'VanillaDisable'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.3'
+
+[download]
+hash = 'f3985fbd1031220c21e0ee60094798db83b7876f5671aabbe0fd15339485cee8033a0a6c6f8e0812355175e214dd56002a45b04aad885c9c5777ccf3289d78cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/udzOW1ID/versions/kCiOR99h/vanilla_disable-fabric-mc1.21.1-4.0.3.jar'
+
+[update.modrinth]
+mod-id = 'udzOW1ID'
+version = 'kCiOR99h'

@@ -1,0 +1,17 @@
+filename = 'soundcontroller-1.2.3-mc1.20.5.jar'
+name = 'Sound Controller'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.5', '1.20.6', '1.20.6', '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.3-mc1.20.5'
+
+[download]
+hash = '2efb4e3609451873088e08cdb263a5a9a078622a92d10eef3624bd7bde9542282266296132af4fd48c5652f19f18b095f4b06531b49354cb5b286472bf9c7860'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uY9zbflw/versions/Vej3tvcx/soundcontroller-1.2.3-mc1.20.5.jar'
+
+[update.modrinth]
+mod-id = 'uY9zbflw'
+version = 'Vej3tvcx'

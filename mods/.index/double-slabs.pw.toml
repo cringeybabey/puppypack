@@ -1,0 +1,17 @@
+filename = 'doubleslabs-fabric-1.21.1-0.4.1.jar'
+name = 'DoubleSlabs'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DoubleSlabs-Fabric-1.21.1-0.4.1'
+
+[download]
+hash = 'f42a80ea147dadb49b515facfd2f80d83f696955'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7441849
+project-id = 350179

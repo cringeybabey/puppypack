@@ -1,0 +1,40 @@
+filename = 'durabilitytooltip-1.1.6-fabric-mc1.21.jar'
+name = 'Durability Tooltip'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.6-fabric-mc1.21'
+
+[download]
+hash = '4dbc699bbc5af6a9b3e788f4ea64a5479622e6f8b46e5762ab23e5ab366f356d35d07654816f16bbf96f74e63baf566ebe97fa83b9489d4bebae59709cb12b9f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/smUP7V3r/versions/osDKNZVj/durabilitytooltip-1.1.6-fabric-mc1.21.jar'
+
+[update.modrinth]
+mod-id = 'smUP7V3r'
+version = 'osDKNZVj'

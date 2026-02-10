@@ -1,0 +1,43 @@
+{
+  "initializer": {
+    "lifetime": "80",
+    "alpha": "0.1 + 0.05 * (RAIN > 0.80)",
+    "size": "0",
+    "dx": "0",
+    "dy": "-1.9",
+    "dz": "0",
+    "roll": "0"
+  },
+  "ticker": {
+    "size": "0.5*(AGE > 1)",
+    "dx": "RAIN * (0.4405 * RAIN * sin(0.01 * TIME) - 0.099)",
+    "dy": "-0.60",
+    "dz": "0.15 * sin(0.25 * AGE)",
+    "alpha": "(0.17 + 0.05 * (RAIN > 0.80)) * pow(max(0, 1 - (DISTANCE_SQUARED / 289)), 2)",
+    "remove_condition": "DISTANCE_SQUARED >= 289"
+  },
+  "liquid_affinity": "non_liquids",
+  "random_sprite": true,
+  "has_physics": true,
+  "kill_on_contact": true,
+  "exclusion_radius": 3,
+  "offset": [0, 0, 0],
+  "render_type": "additive_translucent",
+  "rotation_mode": "movement_aligned",
+  "particle_emitters": [
+    {
+      "particle": "extra:thunder_p",
+      "chance": "(1 == AGE) * (RAIN > 0.5)",
+      "x": "0",
+      "z": "0",
+      "y": "0"
+    },
+    {
+      "particle": "extra:rain_mist",
+      "chance": "(1 == AGE)*0.035",
+      "x": "5 * cos((-5 * TIME)) -5",
+      "z": "5 * cos((-5 * TIME))",
+      "y": "0"
+    }
+  ]
+}

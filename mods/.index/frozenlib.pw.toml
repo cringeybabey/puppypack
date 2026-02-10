@@ -1,0 +1,17 @@
+filename = 'FrozenLib-2.2.4-mc1.21.1.jar'
+name = 'FrozenLib'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.4-mc1.21.1'
+
+[download]
+hash = '2fe0816d77ea68a644efec183050f6e0a2f7c7f228dfb8267f015cc13fb2e78af89820692234a7279673710116adc668f39d24fe066d205c0c2bb78408ffd0c5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9KawNmQc/versions/GdadG0oj/FrozenLib-2.2.4-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = '9KawNmQc'
+version = 'GdadG0oj'

@@ -7,6 +7,7 @@
 	wardenSpawnTrackerCommand: false,
 	fileTransferServer: true,
 	fileTransferClient: true,
+	packDownloading: "ENABLED",
 	cape: "frozenlib:dummy",
 	dataFixer: {
 		// Mods can only add to this list. User settings will always apply.

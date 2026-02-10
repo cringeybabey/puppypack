@@ -1,0 +1,17 @@
+filename = 'TreeChop-1.21.1-fabric-0.19.3a.jar'
+name = "HT's TreeChop"
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.19.3a'
+
+[download]
+hash = '6ee779993a1fddccfc202d99a211f41c438844d051d9ccb0c8e9c9a549f8d998ecd9a1eb44ecc5a655748a55bc25738d93bb27b228f57072ff66d221beb9efb3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gHoB7SHO/versions/YK5sxWxT/TreeChop-1.21.1-fabric-0.19.3a.jar'
+
+[update.modrinth]
+mod-id = 'gHoB7SHO'
+version = 'YK5sxWxT'

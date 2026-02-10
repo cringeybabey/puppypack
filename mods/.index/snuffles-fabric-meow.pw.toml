@@ -1,0 +1,17 @@
+filename = 'snuffles-1.3.0+1.21.1.jar'
+name = 'Snuffles Fabric'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1', '1.21.2', '1.21.2', '1.21.3', '1.21.3', '1.21.4', '1.21.4', '1.21.5', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.0+1.21.1'
+
+[download]
+hash = '2ca854c9c327c84dc23bad3c79fa515340a5fe60cf95d451926871d4ee67d1e1b8faff2b9d0f9aeab0fa38af4aff46224fb68517ce9d3db473e3f780312cec39'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kZptYc8e/versions/k3HnIity/snuffles-1.3.0%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kZptYc8e'
+version = 'k3HnIity'

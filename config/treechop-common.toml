@@ -28,10 +28,12 @@
 
 [treeDetection]
 	#Maximum number of log blocks that can be detected to belong to one tree
-	#Range: 1 ~ 8096
+	# Default: 1024
+	# Range: 1 ~ 8096
 	maxTreeBlocks = 1024
 	#Maximum number of leaves blocks that can destroyed when a tree is felled
-	#Range: 1 ~ 8096
+	# Default: 1024
+	# Range: 1 ~ 8096
 	maxLeavesBlocks = 1024
 	#What to do with leaves blocks when a tree is felled
 	#Allowed Values: IGNORE, BREAK, DECAY
@@ -43,7 +45,8 @@
 	#Non-decayable leaves are ignored when detecting leaves
 	ignorePersistentLeaves = true
 	#Maximum distance from log blocks to destroy leaves blocks when felling
-	#Range: 0 ~ 16
+	# Default: 7
+	# Range: 0 ~ 16
 	maxBreakLeavesDistance = 7
 
 	[treeDetection.logs]
@@ -80,16 +83,19 @@
 	#See https://github.com/hammertater/treechop/#logarithmic
 	[chopCounting.logarithmic]
 		#Determines the number of chops required to fell a tree; higher values require more chops for bigger trees
-		#Range: 0.0 ~ 10000.0
+		# Default: 10.0
+		# Range: 0.0 ~ 10000.0
 		a = 10.0
 
 	#See https://github.com/hammertater/treechop/#linear
 	[chopCounting.linear]
 		#The number of chops per block required to fell a tree; if chopsPerBlock = 0.5, it will take 50 chops to fell a 100 block tree
-		#Range: 0.0 ~ 7.0
+		# Default: 1.0
+		# Range: 0.0 ~ 7.0
 		chopsPerBlock = 1.0
 		#The base number of chops required to fell a tree regardless of its size
-		#Range: -10000.0 ~ 10000.0
+		# Default: 0.0
+		# Range: -10000.0 ~ 10000.0
 		baseNumChops = 0.0
 
 	[compatibility.general]

@@ -33,6 +33,4 @@ datapack: {
   ]
   biome: true
   biome_placement: true
-  // Allows the usage of JSON5 files in datapacks.
-  json5Support: true
 }

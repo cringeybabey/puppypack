@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "pack_format": 34,
+    	  "min_format": 34,
+    	  "max_format": 69,
+		    "supported_formats": {"min_inclusive": 34, "max_inclusive": 69},
+        "description": "§cv1.9.1.1§8| §6Angel's Weather §8|§e1.14§6+§8| §7Needs §ePolytone§7 for §eMC 1.21§6+"
+    }
+}

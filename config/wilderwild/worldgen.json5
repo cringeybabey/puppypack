@@ -51,6 +51,7 @@
 		"birchBranches": true,
 		"oakBranches": true,
 		"darkOakBranches": true,
+		"newMaples": true,
 	},
 	"vegetation": {
 		"grassGeneration": true,

@@ -1,0 +1,68 @@
+filename = 'Default-Dark-Mode-Expansion-1.19.0+-2026.1.1.zip'
+name = 'Default Dark Mode: Expansion'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19',
+    '1.19.1',
+    '1.19.1',
+    '1.19.2',
+    '1.19.2',
+    '1.19.3',
+    '1.19.3',
+    '1.19.4',
+    '1.19.4',
+    '1.20',
+    '1.20',
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9',
+    '26.1 snapshot 1',
+    '26.1-snapshot-1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2026.1.1'
+
+[download]
+hash = '9de1ffcb567e0d168b294f05f35ddc93ec9957f1635f61001afc4524c8a29f91da63648adbc2bc0ab9ec120de4ef2e32d479c978bf06aa168407e8ad22dce8db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/m3vMfZFQ/versions/bZeSB4j9/Default-Dark-Mode-Expansion-1.19.0%2B-2026.1.1.zip'
+
+[update.modrinth]
+mod-id = 'm3vMfZFQ'
+version = 'bZeSB4j9'

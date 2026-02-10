@@ -1,0 +1,20 @@
+{
+   "targets": ["minecraft:grass_block", "minecraft:sand", "minecraft:red_sand", "minecraft:terracotta", "minecraft:mycelium", "minecraft:bamboo", "minecraft:podzol"],
+   "particle_emitters": [
+    {
+       "particle": "extra:jungle_proximity_fog",
+       "chance":"max(0,min(1,((DAY_TIME%24000>=22500)*(DAY_TIME%24000<24000)*0.397)+((DAY_TIME%24000>=0)*(DAY_TIME%24000<=5000)*0.310)+((DAY_TIME%24000>5000)*(DAY_TIME%24000<=10000)*0.021)+((DAY_TIME%24000>10000)*(DAY_TIME%24000<=12700)*0.240)+((DAY_TIME%24000>12700)*(DAY_TIME%24000<=13800)*0.280)+((DAY_TIME%24000>13800)*(DAY_TIME%24000<22500)*0.200)+(RAIN>0.7)*0.108+(RAIN>0)*(1-(RAIN>0.7))*0.077))",
+       "x": "0", 
+       "z": "0",
+       "y": "6",
+       "dy": "0.001 + rand()*0.001",
+       "biomes": 
+       [
+         "minecraft:jungle",
+         "minecraft:bamboo_jungle",
+         "minecraft:sparse_jungle"
+       ], 
+      "spawn_location": "lower_corner"
+     }
+     ]
+}

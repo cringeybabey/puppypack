@@ -1,0 +1,17 @@
+filename = 'particle_core-0.3.1+1.21.jar'
+name = 'Particle Core'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.3.1+1.21'
+
+[download]
+hash = '05e6fe7b1c70c8a9b520f4d51ea69d74e35a1172a278a73e63d7639f72b04e54039ffccccb6d24be4281e774b05e856bf5f0f25876fa48d1cc55dd47950eed82'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RSeLon5O/versions/NcCV39PQ/particle_core-0.3.1%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'RSeLon5O'
+version = 'NcCV39PQ'

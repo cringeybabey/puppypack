@@ -1,0 +1,47 @@
+{
+  "woodtype": {
+    // Exclude Module From Wood-Good, Stone-Zone & Gems-Realm
+    //     EXAMPLE: blacklist = [
+    //         "chipped",
+    //         "variantvanillablocks"
+    //     ]
+    "blacklist": []
+  },
+  "leavestype": {
+    // Exclude Module From Wood-Good, Stone-Zone & Gems-Realm
+    //     EXAMPLE: blacklist = [
+    //         "chipped",
+    //         "variantvanillablocks"
+    //     ]
+    "blacklist": []
+  },
+  "block": {
+    // Exclude Module From Wood-Good, Stone-Zone & Gems-Realm
+    //     EXAMPLE: blacklist = [
+    //         "chipped",
+    //         "variantvanillablocks"
+    //     ]
+    "blacklist": []
+  },
+  "entryset": {
+    // Exclude Module From Wood-Good, Stone-Zone & Gems-Realm
+    //     EXAMPLE: blacklist = [
+    //         "chipped",
+    //         "variantvanillablocks"
+    //     ]
+    "blacklist": []
+  },
+  "module": {
+    // Exclude Module From Wood-Good, Stone-Zone & Gems-Realm
+    //     EXAMPLE: blacklist = [
+    //         "chipped",
+    //         "variantvanillablocks"
+    //     ]
+    "blacklist": []
+  },
+  "other": {
+    // Disable all of Supported Mods on EveryCompat's side. This feature is same as Library-Section which do not have any Wood Modules.
+    // WARNING: If the config between CLIENT & SERVER are not the same, then you won't able to join a server
+    "include_all_wood_modules": true
+  }
+}

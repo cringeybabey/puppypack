@@ -1,0 +1,17 @@
+filename = 'ennuis_bigger_inventories-0.2.0-beta.6+1.21.1.jar'
+name = "Ennui's Bigger Inventories"
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.2.0-beta.6+1.21.1'
+
+[download]
+hash = '04c3b7c8304a0023177b58135740c941119c78a14ccc37e6dd0d9c2697b54832252b4b36a4f04c8b9a41b2a0edadf37397edd851b8fb0fd98680cdd5f6c52e31'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3vWSQmpn/versions/xhHO0Q5E/ennuis_bigger_inventories-0.2.0-beta.6%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '3vWSQmpn'
+version = 'xhHO0Q5E'

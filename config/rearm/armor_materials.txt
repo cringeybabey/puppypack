@@ -1,0 +1,12 @@
+These are all the armor materials for which you can override the total defense value by adding them to the "Total armor overrides" setting inside the mod configuration.
+
+minecraft:leather
+minecraft:chainmail
+minecraft:iron
+minecraft:gold
+minecraft:diamond
+minecraft:turtle
+minecraft:netherite
+minecraft:armadillo
+friendsandfoes:wildfire_crown
+tide:dragonfin

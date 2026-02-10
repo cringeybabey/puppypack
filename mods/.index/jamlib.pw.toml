@@ -1,0 +1,17 @@
+filename = 'jamlib-fabric-1.3.5+1.21.1.jar'
+name = 'JamLib'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.5+1.21.1'
+
+[download]
+hash = 'b63fc5bf9bbf68d72b23bb15d92229bfb9175a889ab492c858c551e70149afcca488ea35f45961087f8e48076b38d3d62d4d427d440d355f6e910aa6ac713b2c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IYY9Siz8/versions/V3B1Q6vH/jamlib-fabric-1.3.5%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'IYY9Siz8'
+version = 'V3B1Q6vH'

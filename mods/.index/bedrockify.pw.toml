@@ -1,0 +1,17 @@
+filename = 'bedrockify-1.10.1+mc1.21.jar'
+name = 'BedrockIfy'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.10.1+mc1.21'
+
+[download]
+hash = 'ca5fd2d19c0e526719ffef8aaa5625836ef8d9041724b0de8fadbc987287d08d03923aa52f5fab305bfc312d7ee97d8e351c25c0098a3942c529b8ca7778f186'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ox3rDp1B/versions/3nHbIP4m/bedrockify-1.10.1%2Bmc1.21.jar'
+
+[update.modrinth]
+mod-id = 'ox3rDp1B'
+version = '3nHbIP4m'

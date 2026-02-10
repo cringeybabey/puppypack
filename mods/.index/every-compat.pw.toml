@@ -1,0 +1,17 @@
+filename = 'everycomp-1.21-2.11.24-fabric.jar'
+name = 'Every Compat'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-2.11.24-fabric'
+
+[download]
+hash = 'ddad4ba7722eda6d5700f9e26b643612b6d8b0aa17e4888ced0ec06dfe65579c15fce305db3c042bac1f9c281c5c89ea5fa860645305470579a800eefd487e6b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/2EAUe49X/everycomp-1.21-2.11.24-fabric.jar'
+
+[update.modrinth]
+mod-id = 'eiktJyw1'
+version = '2EAUe49X'

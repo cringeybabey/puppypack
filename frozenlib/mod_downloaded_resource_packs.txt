@@ -1,0 +1,11 @@
+ww_pressure=1
+ww_amber=1
+ww_espial_title_mix=1
+ww_frozen_blocks=3
+ww_anemone=1
+ww_dove=1
+ww_serene_sonder=1
+ww_espial=1
+ww_molt=1
+ww_horizon_afoot=1
+ww_dahlia=1

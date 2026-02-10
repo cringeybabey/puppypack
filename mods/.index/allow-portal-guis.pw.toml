@@ -1,0 +1,42 @@
+filename = 'allow-portal-guis-1.1.6.jar'
+name = 'Allow Portal GUIs'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.6'
+
+[download]
+hash = '70465fc66323160d26ecb27d39339818fa7259f5b06b1b06e6d88652b1033c34c1e0a36550482431378ad9eec2d3afb3943d466302861f5464bdf6c6236694f7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UVHxud51/versions/G90lXR1b/allow-portal-guis-1.1.6.jar'
+
+[update.modrinth]
+mod-id = 'UVHxud51'
+version = 'G90lXR1b'

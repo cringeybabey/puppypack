@@ -1,0 +1,17 @@
+filename = 'Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.2.0.jar'
+name = "Oh The Trees You'll Grow"
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-5.2.0-Fabric'
+
+[download]
+hash = '1eafe978dfc4cc2bffee5a44ae6939154c14e638fca9ef395b9bb1defa9d827edaebb082265daa811f0c02d41ecf9f03c0a29e78afd17807f69558bd411f2930'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/g8NOG5OR/versions/AkpM5y2D/Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.2.0.jar'
+
+[update.modrinth]
+mod-id = 'g8NOG5OR'
+version = 'AkpM5y2D'

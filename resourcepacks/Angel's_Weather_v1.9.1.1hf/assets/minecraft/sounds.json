@@ -1,0 +1,122 @@
+{
+  "weather.rain": {
+    "sounds": [
+      { "name": "ambient/weather/rain1", "weight": 170, "volume": 0.40 },
+      { "name": "ambient/weather/rain2", "weight": 110, "volume": 0.30 },
+      { "name": "ambient/weather/rain3", "weight": 150, "volume": 0.50 },
+      { "name": "ambient/weather/rain4", "weight": 170, "volume": 0.75 },
+      { "name": "ambient/weather/rain5", "weight": 110, "volume": 0.40 },
+      { "name": "ambient/weather/rain6", "weight": 190, "volume": 0.70 },
+      { "name": "ambient/weather/rain7", "weight": 140, "volume": 0.45 },
+      { "name": "ambient/weather/rain8", "weight": 50, "volume": 0.75 },
+
+      { "name": "ambient/weather/extra/rain/rainsplashing_s", "weight": 150, "volume": 0.80 },
+      { "name": "ambient/weather/extra/rain/rainsplashing_m", "weight": 150, "volume": 1.25 },
+      { "name": "ambient/weather/extra/rain/rainsplashing2_m", "weight": 150, "volume": 1.25 },
+      { "name": "ambient/weather/extra/rain/rainsplashing3_m", "weight": 150, "volume": 1.25 },
+      { "name": "ambient/weather/extra/rain/rainsplashing4_m", "weight": 150, "volume": 1.25 },
+      { "name": "ambient/weather/extra/rain/rainsplashing5_m", "weight": 150, "volume": 1.25 },
+
+      { "name": "ambient/weather/extra/rain/rain_nosound_space", "weight": 300, "volume": 0.10 },
+
+      { "name": "ambient/weather/extra/rain/droplet1_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet2_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet3_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet4_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet5_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet6_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet7_m", "weight": 100, "volume": 1.00 },
+      { "name": "ambient/weather/extra/rain/droplet8_m", "weight": 100, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/wind/wind01_s", "weight": 5, "volume": 2.75 },
+      { "name": "ambient/weather/extra/wind/wind02_m", "weight": 10, "volume": 3.25 },
+      { "name": "ambient/weather/extra/wind/wind03_s", "weight": 11, "volume": 5.75 },
+      { "name": "ambient/weather/extra/wind/wind03_m", "weight": 11, "volume": 5.75 },
+      { "name": "ambient/weather/extra/wind/wind04_s", "weight": 11, "volume": 5.75 },
+      { "name": "ambient/weather/extra/wind/wind04_m", "weight": 11, "volume": 5.75 },
+
+      { "name": "ambient/weather/extra/wind/windear01_s", "weight": 1, "volume": 5.75 },
+      { "name": "ambient/weather/extra/wind/windear01_m", "weight": 3, "volume": 2.75 },
+      { "name": "ambient/weather/extra/wind/windear02_s", "weight": 3, "volume": 2.75 },
+      { "name": "ambient/weather/extra/wind/windear02_m", "weight": 3, "volume": 2.75 },
+      { "name": "ambient/weather/extra/wind/windear03_s", "weight": 2, "volume": 2.75 },
+      { "name": "ambient/weather/extra/wind/windear03_m", "weight": 3, "volume": 2.75 }
+    ],
+
+    "replace": true,
+    "subtitle": "subtitles.weather.rain"
+
+  },
+
+  "weather.rain.above": {
+    "sounds": [
+      { "name": "ambient/weather/extra/rain/aboveplayer/rain1_m_above", "weight": 170, "volume": 0.30 },
+      { "name": "ambient/weather/extra/rain/aboveplayer/rain4_m_above", "weight": 170, "volume": 0.60 },
+      { "name": "ambient/weather/extra/rain/aboveplayer/rain6_m_above", "weight": 170, "volume": 0.60 },
+      { "name": "ambient/weather/extra/rain/rainsplashing_m", "weight": 250, "volume": 1.20 },
+      { "name": "ambient/weather/extra/rain/rainsplashing4_m", "weight": 250, "volume": 1.20 },
+      { "name": "ambient/weather/extra/rain/rainsplashing5_m", "weight": 150, "volume": 1.20 },
+      { "name": "ambient/weather/extra/wind/wind02_m", "weight": 10, "volume": 1.25 },
+      { "name": "ambient/weather/extra/wind/windhowl01_m", "weight": 2, "volume": 1.35 },
+      { "name": "ambient/weather/extra/wind/windear01_m", "weight": 1, "volume": 5.75 }
+    ],
+
+    "replace": true,
+    "subtitle": "subtitles.weather.rain"
+
+  },
+
+  "entity.lightning_bolt.thunder": {
+    "sounds": [
+      { "name": "ambient/weather/thunder1", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder1_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/thunder2", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder2_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/thunder3", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder3_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/wind/windhowl01_m", "weight": 5, "volume": 0.01 },
+
+      { "name": "ambient/weather/extra/thunder/thunder4_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder4_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder5_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder5_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder6_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder6_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder7_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder7_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder8_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder8_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder9_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder9_s", "weight": 25, "volume": 1.00 },
+      
+      { "name": "ambient/weather/extra/thunder/thunder10_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder10_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder11_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder11_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder12_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder12_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder13_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder13_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/thunder14_m", "weight": 80, "volume": 1.00 },
+      { "name": "ambient/weather/extra/thunder/thunder14_s", "weight": 25, "volume": 1.00 },
+
+      { "name": "ambient/weather/extra/thunder/nothunder", "weight": 140, "volume": 0.01 }
+    ],
+
+    "replace": true,
+    "subtitle": "subtitles.entity.lightning_bolt.thunder"
+
+  }
+}

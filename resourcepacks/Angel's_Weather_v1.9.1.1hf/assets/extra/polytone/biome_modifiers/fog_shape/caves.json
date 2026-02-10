@@ -1,0 +1,18 @@
+{
+	"targets": [
+	 {
+	  "id": "minecraft:dripstone_caves",
+	  "required": false
+	 },
+	 {
+	  "id": "minecraft:lush_caves",
+	  "required": false
+	 },
+	 {
+	  "id": "minecraft:deep_dark",
+	  "required": false
+	 }
+	],
+	"fog_end": 1.1,
+	"fog_start": 10
+}

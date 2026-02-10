@@ -1,0 +1,12 @@
+
+{
+  "targets": ["minecraft:pale_garden"],
+    "fog_color": 3617328,
+    "water_color": 10993606,
+    "water_fog_color": 12569552,
+    "sky_color": 5194817,
+    "foliage_color": 4537916,
+    "grass_color": 8353912,
+    "fog_radius": 0.29,
+    "fog_fade": "11.4"
+}

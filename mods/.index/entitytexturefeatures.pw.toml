@@ -1,0 +1,17 @@
+filename = 'entity_texture_features_1.21-fabric-7.0.8.jar'
+name = 'Entity Texture Features'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '7.0.8-fabric-1.21'
+
+[download]
+hash = '180f3d27ec18026fa27b1f49eb6bcec46c62b29c744ab81182e1c0834363472d2978c4a96074e678635a442019e0645ef6930feb0e03edc9fc289305f855f14c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BVzZfTc1/versions/P3oS1dIC/entity_texture_features_1.21-fabric-7.0.8.jar'
+
+[update.modrinth]
+mod-id = 'BVzZfTc1'
+version = 'P3oS1dIC'
